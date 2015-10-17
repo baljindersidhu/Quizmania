@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quizmania</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_quiz_screen">QuizScreen</string>
+    <string name="Topic1">Networking Basics</string>
+    <string name="Topic2">Internetworking</string>
+    <string name="Topic3">TCP/IP</string>
+    <string name="Topic4">Subnetting</string>
+    <string name="Topic5">IP Routing</string>
+    <string name="Topic6">Virtual LAN\'s</string>
+    <string name="Topic7">Security</string>
+    <string name="Topic8">Wireless Technologies</string>
+    <string name="Topic9">IPv6</string>
+    <string name="Topic10">Wide Area Network</string>
+    <string name="Topic11">Netowrk Address Translation</string>
+    <string name="Topic12">Spanning Tree Protocol</string>
+    <string name="question">This is a Question?</string>
+    <string name="optionA">Option A</string>
+    <string name="optionB">Option B</string>
+    <string name="optionC">Option C</string>
+    <string name="optionD">Option D</string>
+    <string name="buttonNext">Next</string>
+</resources>
