@@ -16,7 +16,7 @@
         android:layout_marginStart="30dp"
         android:text="@string/chooseTopic"
         android:background="@android:color/transparent"
-        android:textAppearance="?android:textAppearanceMedium"
+        android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#ffffff"
         android:textStyle="bold"/>
     <ScrollView

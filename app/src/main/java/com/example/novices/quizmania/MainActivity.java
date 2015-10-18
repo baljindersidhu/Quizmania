@@ -10,8 +10,6 @@ import android.widget.RadioGroup;
 
 public class MainActivity extends AppCompatActivity {
 
-
-    private Button topic_next;
     private static RadioGroup rg_topic;
     private static RadioButton rb_topic;
 
@@ -20,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         rg_topic = (RadioGroup) findViewById(R.id.radio_topics);
-        topic_next = (Button) findViewById(R.id.TopicNextButton);
+        Button topic_next = (Button) findViewById(R.id.TopicNextButton);
 
         topic_next.setOnClickListener(new View.OnClickListener() {
             @Override
