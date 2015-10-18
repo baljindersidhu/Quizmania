@@ -6,7 +6,7 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_quiz_screen">
 
     <TextView
         android:id="@+id/questionNo"
@@ -51,6 +51,7 @@
             android:layout_weight="3">
 
             <RadioGroup
+                android:id="@+id/radio_quiz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -99,7 +100,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/buttonNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -107,6 +108,6 @@
         android:text="@string/buttonNext"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="#ffffff"
+        android:background="#2E7D32"
         android:textStyle="bold" />
 </LinearLayout>
-<!--android:background="#2E7D32"-->

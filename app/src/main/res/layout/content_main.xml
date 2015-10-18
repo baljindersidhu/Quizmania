@@ -1,133 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:orientation="vertical"
-    tools:showIn="@layout/activity_main"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/chooseTopic"
+        android:background="@android:color/transparent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="30dp">
-        <LinearLayout
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:id="@+id/radio_topics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic1"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic2"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic3"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic4"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic5"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic6"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic7"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic7"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic8"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic8"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic9"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic10"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic11"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic11"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-            <Button
+            <RadioButton
                 android:id="@+id/Topic12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:background="@android:color/transparent"
                 android:text="@string/Topic12"
+                android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
-        </LinearLayout>
+        </RadioGroup>
     </ScrollView>
 
-
-
+    <Button
+        android:id="@+id/TopicNextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0"
+        android:background="@android:color/transparent"
+        android:text="@string/buttonNext"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 </LinearLayout>
